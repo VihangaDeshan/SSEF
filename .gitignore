@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+txt.txt
+run_log_gem.txt
+outputs/attempts_gemini_*.csv
+outputs/manifest_gemini_*.jsonl
+outputs/raw_gemini/

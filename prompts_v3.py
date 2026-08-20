@@ -281,7 +281,16 @@ GEN_PARAMS = {
     # OpenRouter passes seed through only for providers that support it.
     # The Google AI Studio route exposes NO seed at all — a documented
     # asymmetry between the Kimi and Gemini runs.
-    "seed": 20260819,
+     #SEED REMOVED — DEC-033. Sending a fixed seed made every retry return the
+    # IDENTICAL story, so a topic that missed the gate on attempt 1 was stuck
+    # outside it for all four attempts (N02: 667, 667, 667 · N09: 602, 616,
+    # 602, 602). The regeneration protocol was inert; only 6/10 accepted.
+    # Gemini honours the seed; DeepSeek ignores it — so the corpus was never
+    # fully seeded anyway.
+    # COST: generation is no longer bit-reproducible. Recorded instead:
+    # prompt text, prompt SHA-256, model ID, access date, temperature,
+    # max_tokens, reasoning setting, gate, attempt number, generation_id.
+    "seed": None,
 }
 
 MODEL_IDS = {
