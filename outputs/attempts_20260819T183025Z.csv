@@ -1,0 +1,35 @@
+run_id,topic_id,attempt,seconds,word_count,accepted,reason,prompt_sha,finish_reason,completion_tokens,generation_id
+20260819T183025Z,N01_CoastTrain,1,292,0,False,api_error,985ca48bdfb15f66,length,,
+20260819T183025Z,N01_CoastTrain,2,251,0,False,api_error,985ca48bdfb15f66,length,,
+20260819T183025Z,N01_CoastTrain,3,282,0,False,api_error,985ca48bdfb15f66,length,,
+20260819T183025Z,N01_CoastTrain,4,267,0,False,api_error,985ca48bdfb15f66,length,,
+20260819T183025Z,N02_Peradeniya,1,465,755,True,,0607a078d8a80a0f,stop,22222,gen-1787165324-u1VynzuHACrkVgCJSpI6
+20260819T183025Z,N03_GalleFort,1,684,0,False,api_error,379c503ff947f22d,length,,
+20260819T183025Z,N03_GalleFort,2,159,0,False,api_error,379c503ff947f22d,length,,
+20260819T183025Z,N03_GalleFort,3,255,726,True,,379c503ff947f22d,stop,17991,gen-1787166636-eBIMXmGht2g4gIDvAbVx
+20260819T183025Z,N04_Avurudu,1,134,0,False,api_error,f2e0f93137394983,length,,
+20260819T183025Z,N04_Avurudu,2,238,0,False,api_error,f2e0f93137394983,length,,
+20260819T183025Z,N04_Avurudu,3,209,0,False,api_error,f2e0f93137394983,length,,
+20260819T183025Z,N04_Avurudu,4,236,0,False,api_error,f2e0f93137394983,length,,
+20260819T183025Z,N07_Rajarata,1,187,0,False,api_error,d37386601c789b36,length,,
+20260819T183025Z,N07_Rajarata,2,274,0,False,api_error,d37386601c789b36,length,,
+20260819T183025Z,N07_Rajarata,3,256,0,False,api_error,d37386601c789b36,length,,
+20260819T183025Z,N07_Rajarata,4,266,0,False,api_error,d37386601c789b36,length,,
+20260819T183025Z,N09_Vesak,1,232,0,False,api_error,0ef7c15f2f7bb3dc,length,,
+20260819T183025Z,N09_Vesak,2,322,0,False,api_error,0ef7c15f2f7bb3dc,length,,
+20260819T183025Z,N09_Vesak,3,336,0,False,api_error,0ef7c15f2f7bb3dc,length,,
+20260819T183025Z,N09_Vesak,4,266,0,False,api_error,0ef7c15f2f7bb3dc,length,,
+20260819T183025Z,N10_Mirissa,1,173,0,False,api_error,7c9cc88a1766cfe5,length,,
+20260819T183025Z,N10_Mirissa,2,235,0,False,api_error,7c9cc88a1766cfe5,length,,
+20260819T183025Z,N10_Mirissa,3,197,53,False,too_short (53 < 720),7c9cc88a1766cfe5,length,9000,gen-1787170284-77xVSsiJ4BmLdFDUy1D1
+20260819T183025Z,N10_Mirissa,4,321,0,False,api_error,7c9cc88a1766cfe5,length,,
+20260819T183025Z,N12_ITNightShift,1,153,0,False,api_error,9a9852dfcce59a29,length,,
+20260819T183025Z,N12_ITNightShift,2,416,769,True,,9a9852dfcce59a29,stop,16787,gen-1787170960-iwSbJkd6iWA2zTH4CjO3
+20260819T183025Z,N14_FloodRelief,1,246,0,False,api_error,42d04ce760480587,length,,
+20260819T183025Z,N14_FloodRelief,2,238,0,False,api_error,42d04ce760480587,length,,
+20260819T183025Z,N14_FloodRelief,3,496,0,False,api_error,42d04ce760480587,length,,
+20260819T183025Z,N14_FloodRelief,4,185,0,False,api_error,42d04ce760480587,length,,
+20260819T183025Z,N15_Airport,1,152,0,False,api_error,e01a33b615d2ed7b,length,,
+20260819T183025Z,N15_Airport,2,209,0,False,api_error,e01a33b615d2ed7b,length,,
+20260819T183025Z,N15_Airport,3,259,0,False,api_error,e01a33b615d2ed7b,length,,
+20260819T183025Z,N15_Airport,4,150,637,False,too_short (637 < 720),e01a33b615d2ed7b,stop,13831,gen-1787173175-npe8wsXnolXVXSMcSlqP

@@ -1,0 +1,10 @@
+[
+  {
+    "test": "A  default (no thinkingConfig)",
+    "seconds": 40,
+    "finish": "STOP",
+    "thoughts_tokens": 3116,
+    "output_tokens": 2506,
+    "words": 781,
+    "quote_chars": 36,
+    "first_line": 
